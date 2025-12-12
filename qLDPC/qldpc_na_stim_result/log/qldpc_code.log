@@ -1,0 +1,41 @@
+nohup: ignoring input
+num_shots = 10000 num_low_confidence = 7616 num_errors = 78 total_time_seconds = 19433.07836400011
+num_shots = 10000 num_low_confidence = 1777 num_errors = 220 total_time_seconds = 6068.748171999997
+num_shots = 10000 num_low_confidence = 241 num_errors = 472 total_time_seconds = 1593.631387000005
+tesseract: src/tesseract.cc:46: TesseractDecoder::TesseractDecoder(TesseractConfig): Assertion `config.det_orders[i].size() == config.dem.count_detectors()' failed.
+tesseract: src/tesseract.cc:46: TesseractDecoder::TesseractDecoder(TesseractConfig): Assertion `config.det_orders[i].size() == config.dem.count_detectors()' failed.
+Aborted (core dumped)
+tesseract: src/tesseract.cc:46: TesseractDecoder::TesseractDecoder(TesseractConfig): Assertion `config.det_orders[i].size() == config.dem.count_detectors()' failed.
+Aborted (core dumped)
+num_shots = 10000 num_low_confidence = 2 num_errors = 1353 total_time_seconds = 87.01672499999991
+Processing bb_code_n_288_k_12_r_1_Z_cz_na.stim
+Running: /home/normaluser/ck/tesseract-decoder/bazel-bin/src/tesseract --pqlimit 1000000 --circuit /home/normaluser/ck/linkequantum-qLDPC/qLDPC/qldpc_na_stim_circuit/bb_code_n_288_k_12_r_1_Z_cz_na.stim --dem /home/normaluser/ck/linkequantum-qLDPC/qLDPC/qldpc_na_stim_dem/bb_code_n_288_k_12_r_1_Z_cz_na.dem --in /home/normaluser/ck/linkequantum-qLDPC/qLDPC/qldpc_na_stim_dat/bb_code_n_288_k_12_r_1_Z_cz_na.dat --in-format b8 --in-includes-appended-observables --out /home/normaluser/ck/linkequantum-qLDPC/qLDPC/qldpc_na_stim_result/decoded_bb_code_n_288_k_12_r_1_Z_cz_na_pre.01 --out-format 01 --stats-out /home/normaluser/ck/linkequantum-qLDPC/qLDPC/qldpc_na_stim_result/decoded_bb_code_n_288_k_12_r_1_Z_cz_na.json --threads 128 --beam 23 --num-det-orders 1 --no-merge-errors
+Finished decoding for bb_code_n_288_k_12_r_1_Z_cz_na.stim
+Processing lp_code_n_1344_k_100_r_1_Z_cz_na.stim
+Warning: Circuit has 100 observables, which exceeds tesseract's limit of 32. Skipping.
+Processing lp_code_n_2688_k_184_r_1_Z_cz_na.stim
+Warning: Circuit has 184 observables, which exceeds tesseract's limit of 32. Skipping.
+Processing bb_code_n_216_k_8_r_1_Z_cz_na.stim
+Running: /home/normaluser/ck/tesseract-decoder/bazel-bin/src/tesseract --pqlimit 1000000 --circuit /home/normaluser/ck/linkequantum-qLDPC/qLDPC/qldpc_na_stim_circuit/bb_code_n_216_k_8_r_1_Z_cz_na.stim --dem /home/normaluser/ck/linkequantum-qLDPC/qLDPC/qldpc_na_stim_dem/bb_code_n_216_k_8_r_1_Z_cz_na.dem --in /home/normaluser/ck/linkequantum-qLDPC/qLDPC/qldpc_na_stim_dat/bb_code_n_216_k_8_r_1_Z_cz_na.dat --in-format b8 --in-includes-appended-observables --out /home/normaluser/ck/linkequantum-qLDPC/qLDPC/qldpc_na_stim_result/decoded_bb_code_n_216_k_8_r_1_Z_cz_na_pre.01 --out-format 01 --stats-out /home/normaluser/ck/linkequantum-qLDPC/qLDPC/qldpc_na_stim_result/decoded_bb_code_n_216_k_8_r_1_Z_cz_na.json --threads 128 --beam 23 --num-det-orders 1 --no-merge-errors
+Finished decoding for bb_code_n_216_k_8_r_1_Z_cz_na.stim
+Processing hgp_code_n_1764_k_36_r_1_Z_cz_na.stim
+Warning: Circuit has 36 observables, which exceeds tesseract's limit of 32. Skipping.
+Processing lp_code_n_1024_k_80_r_1_Z_cz_na.stim
+Warning: Circuit has 80 observables, which exceeds tesseract's limit of 32. Skipping.
+Processing bb_code_n_180_k_8_r_1_Z_cz_na.stim
+Running: /home/normaluser/ck/tesseract-decoder/bazel-bin/src/tesseract --pqlimit 1000000 --circuit /home/normaluser/ck/linkequantum-qLDPC/qLDPC/qldpc_na_stim_circuit/bb_code_n_180_k_8_r_1_Z_cz_na.stim --dem /home/normaluser/ck/linkequantum-qLDPC/qLDPC/qldpc_na_stim_dem/bb_code_n_180_k_8_r_1_Z_cz_na.dem --in /home/normaluser/ck/linkequantum-qLDPC/qLDPC/qldpc_na_stim_dat/bb_code_n_180_k_8_r_1_Z_cz_na.dat --in-format b8 --in-includes-appended-observables --out /home/normaluser/ck/linkequantum-qLDPC/qLDPC/qldpc_na_stim_result/decoded_bb_code_n_180_k_8_r_1_Z_cz_na_pre.01 --out-format 01 --stats-out /home/normaluser/ck/linkequantum-qLDPC/qLDPC/qldpc_na_stim_result/decoded_bb_code_n_180_k_8_r_1_Z_cz_na.json --threads 128 --beam 23 --num-det-orders 1 --no-merge-errors
+Finished decoding for bb_code_n_180_k_8_r_1_Z_cz_na.stim
+Processing hgp_code_n_441_k_9_r_1_Z_cz_na.stim
+Running: /home/normaluser/ck/tesseract-decoder/bazel-bin/src/tesseract --pqlimit 1000000 --circuit /home/normaluser/ck/linkequantum-qLDPC/qLDPC/qldpc_na_stim_circuit/hgp_code_n_441_k_9_r_1_Z_cz_na.stim --dem /home/normaluser/ck/linkequantum-qLDPC/qLDPC/qldpc_na_stim_dem/hgp_code_n_441_k_9_r_1_Z_cz_na.dem --in /home/normaluser/ck/linkequantum-qLDPC/qLDPC/qldpc_na_stim_dat/hgp_code_n_441_k_9_r_1_Z_cz_na.dat --in-format b8 --in-includes-appended-observables --out /home/normaluser/ck/linkequantum-qLDPC/qLDPC/qldpc_na_stim_result/decoded_hgp_code_n_441_k_9_r_1_Z_cz_na_pre.01 --out-format 01 --stats-out /home/normaluser/ck/linkequantum-qLDPC/qLDPC/qldpc_na_stim_result/decoded_hgp_code_n_441_k_9_r_1_Z_cz_na.json --threads 128 --beam 23 --num-det-orders 1 --no-merge-errors
+Error: Command failed for hgp_code_n_441_k_9_r_1_Z_cz_na.stim
+Processing hgp_code_n_1225_k_25_r_1_Z_cz_na.stim
+Running: /home/normaluser/ck/tesseract-decoder/bazel-bin/src/tesseract --pqlimit 1000000 --circuit /home/normaluser/ck/linkequantum-qLDPC/qLDPC/qldpc_na_stim_circuit/hgp_code_n_1225_k_25_r_1_Z_cz_na.stim --dem /home/normaluser/ck/linkequantum-qLDPC/qLDPC/qldpc_na_stim_dem/hgp_code_n_1225_k_25_r_1_Z_cz_na.dem --in /home/normaluser/ck/linkequantum-qLDPC/qLDPC/qldpc_na_stim_dat/hgp_code_n_1225_k_25_r_1_Z_cz_na.dat --in-format b8 --in-includes-appended-observables --out /home/normaluser/ck/linkequantum-qLDPC/qLDPC/qldpc_na_stim_result/decoded_hgp_code_n_1225_k_25_r_1_Z_cz_na_pre.01 --out-format 01 --stats-out /home/normaluser/ck/linkequantum-qLDPC/qLDPC/qldpc_na_stim_result/decoded_hgp_code_n_1225_k_25_r_1_Z_cz_na.json --threads 128 --beam 23 --num-det-orders 1 --no-merge-errors
+Error: Command failed for hgp_code_n_1225_k_25_r_1_Z_cz_na.stim
+Processing bb_code_n_144_k_12_r_1_Z_cz_na.stim
+Running: /home/normaluser/ck/tesseract-decoder/bazel-bin/src/tesseract --pqlimit 1000000 --circuit /home/normaluser/ck/linkequantum-qLDPC/qLDPC/qldpc_na_stim_circuit/bb_code_n_144_k_12_r_1_Z_cz_na.stim --dem /home/normaluser/ck/linkequantum-qLDPC/qLDPC/qldpc_na_stim_dem/bb_code_n_144_k_12_r_1_Z_cz_na.dem --in /home/normaluser/ck/linkequantum-qLDPC/qLDPC/qldpc_na_stim_dat/bb_code_n_144_k_12_r_1_Z_cz_na.dat --in-format b8 --in-includes-appended-observables --out /home/normaluser/ck/linkequantum-qLDPC/qLDPC/qldpc_na_stim_result/decoded_bb_code_n_144_k_12_r_1_Z_cz_na_pre.01 --out-format 01 --stats-out /home/normaluser/ck/linkequantum-qLDPC/qLDPC/qldpc_na_stim_result/decoded_bb_code_n_144_k_12_r_1_Z_cz_na.json --threads 128 --beam 23 --num-det-orders 1 --no-merge-errors
+Finished decoding for bb_code_n_144_k_12_r_1_Z_cz_na.stim
+Processing hgp_code_n_2401_k_49_r_1_Z_cz_na.stim
+Warning: Circuit has 49 observables, which exceeds tesseract's limit of 32. Skipping.
+Processing lp_code_n_1920_k_136_r_1_Z_cz_na.stim
+Warning: Circuit has 136 observables, which exceeds tesseract's limit of 32. Skipping.
+Decoding finished

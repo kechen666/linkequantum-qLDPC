@@ -1,0 +1,5 @@
+task_name,decoder_method,logical_error_rate,have_stabilizer,total_running_time
+bb_code_n_288_k_12_r_1_Z_cz_na,No Decode,0.9995,False,0
+bb_code_n_216_k_8_r_1_Z_cz_na,No Decode,0.9918,False,0
+bb_code_n_180_k_8_r_1_Z_cz_na,No Decode,0.9782,False,0
+bb_code_n_144_k_12_r_1_Z_cz_na,No Decode,0.9637,False,0

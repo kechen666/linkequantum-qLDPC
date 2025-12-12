@@ -1,0 +1,3 @@
+task_name,decoder_method,logical_error_rate,have_stabilizer,total_running_time
+hgp_code_n_441_k_9_r_1_Z_cz_na,BP+OSD,0.9782,False,422.8998658657074
+hgp_code_n_1225_k_25_r_1_Z_cz_na,BP+OSD,1.0,False,3067.842406988144

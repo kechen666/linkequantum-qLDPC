@@ -1,0 +1,21 @@
+nohup: ignoring input
+2025-12-10 08:53:37,886 - qLDPC/qldpc_decode_bposd_acc - INFO - Starting the benchmark process...
+2025-12-10 08:53:37,886 - qLDPC/qldpc_decode_bposd_acc - INFO - Processing file: hgp_code_n_1764_k_36_r_1_Z_cz_na.stim
+2025-12-10 08:53:37,889 - qLDPC/qldpc_decode_bposd_acc - INFO - Loaded DEM with 864 detectors and 36 observables
+2025-12-10 08:53:37,889 - qLDPC/qldpc_decode_bposd_acc - INFO - Skipping hgp_code_n_1764_k_36_r_1_Z_cz_na.stim due to too many observables: 36
+2025-12-10 08:53:37,889 - qLDPC/qldpc_decode_bposd_acc - INFO - Processing file: hgp_code_n_441_k_9_r_1_Z_cz_na.stim
+2025-12-10 08:53:37,890 - qLDPC/qldpc_decode_bposd_acc - INFO - Loaded DEM with 216 detectors and 9 observables
+2025-12-10 08:53:38,294 - qLDPC/qldpc_decode_bposd_acc - INFO - Loaded 10000 shots from /home/normaluser/ck/linkequantum-qLDPC/qLDPC/qldpc_na_stim_dat/hgp_code_n_441_k_9_r_1_Z_cz_na.dat
+2025-12-10 09:00:41,218 - qLDPC/qldpc_decode_bposd_acc - INFO - Decoded 10000 shots, mistakes: 9782
+2025-12-10 09:00:41,218 - qLDPC/qldpc_decode_bposd_acc - INFO - Logical Error Rate for hgp_code_n_441_k_9_r_1_Z_cz_na: 0.9782, total_running_time: 422.8998658657074
+2025-12-10 09:00:41,218 - qLDPC/qldpc_decode_bposd_acc - INFO - Processing file: hgp_code_n_1225_k_25_r_1_Z_cz_na.stim
+2025-12-10 09:00:41,220 - qLDPC/qldpc_decode_bposd_acc - INFO - Loaded DEM with 600 detectors and 25 observables
+2025-12-10 09:00:42,348 - qLDPC/qldpc_decode_bposd_acc - INFO - Loaded 10000 shots from /home/normaluser/ck/linkequantum-qLDPC/qLDPC/qldpc_na_stim_dat/hgp_code_n_1225_k_25_r_1_Z_cz_na.dat
+2025-12-10 09:51:50,304 - qLDPC/qldpc_decode_bposd_acc - INFO - Decoded 10000 shots, mistakes: 10000
+2025-12-10 09:51:50,304 - qLDPC/qldpc_decode_bposd_acc - INFO - Logical Error Rate for hgp_code_n_1225_k_25_r_1_Z_cz_na: 1.0, total_running_time: 3067.842406988144
+2025-12-10 09:51:50,304 - qLDPC/qldpc_decode_bposd_acc - INFO - Processing file: hgp_code_n_2401_k_49_r_1_Z_cz_na.stim
+2025-12-10 09:51:50,308 - qLDPC/qldpc_decode_bposd_acc - INFO - Loaded DEM with 1176 detectors and 49 observables
+2025-12-10 09:51:50,308 - qLDPC/qldpc_decode_bposd_acc - INFO - Skipping hgp_code_n_2401_k_49_r_1_Z_cz_na.stim due to too many observables: 49
+2025-12-10 09:51:50,308 - qLDPC/qldpc_decode_bposd_acc - INFO - Finish the benchmark process.
+if you have many shots. cudf can process data efficiently. pleased install cudf.
+if you have many shots. cudf can process data efficiently. pleased install cudf.
