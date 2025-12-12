@@ -1,6 +1,0 @@
-matplotlib
-networkx
-ipykernel
-tabulate
-qiskit
-qiskit-aer
