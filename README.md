@@ -6,9 +6,8 @@
 
 本项目旨在提供一套完整的工具链，支持量子计算中的关键组件开发，包括：
 
-- 量子电路的优化和调度
 - qLDPC码的生成、编码和解码
-- 量子算法的编译和执行
+- qLDPC的Stim线路在中性原子上的编译和执行
 - 性能基准测试和实验数据分析
 
 项目基于Python开发，利用Jupyter Notebook进行交互式实验和演示。
@@ -36,9 +35,9 @@
    git clone https://github.com/your-repo/linkequantum-qLDPC.git
    cd linkequantum-qLDPC
    ```
-3. 安装依赖（以PowerMove_AE为例）：
+3. 安装依赖（以ZAC为例）：
    ```
-   cd PowerMove_AE
+   cd /home/normaluser/ck/linkequantum-qLDPC/ZAC
    pip install -r requirement.txt
    ```
    其他模块请参考各自的requirements.txt或pyproject.toml文件。
@@ -48,7 +47,7 @@
 - **运行示例**: 打开各子文件夹中的`.ipynb`文件，使用Jupyter Notebook运行交互式演示。
 - **脚本执行**: 使用Python运行`.py`脚本，例如：
   ```
-  python PowerMove_AE/PowerMove.py
+  python run.py
   ```
 - **数据分析**: 查看`data/`文件夹中的实验数据，或运行相关脚本来生成新数据。
 
